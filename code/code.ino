@@ -124,7 +124,7 @@ void loop()
     }
     ws2812_setleds((struct cRGB *)pixel, PIXEL_NUM);
 
-    delay(400 - random_avr() % d_delay);
+    delay(350 - random_avr() % d_delay);
   }
   else
   {

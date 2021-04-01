@@ -35,6 +35,7 @@ There are a view different configuration options (like on-time, color, ...), whi
   These settings are important:
   - Processor-Speed to 9.6 Mhz
   - Millis, Tone Support to "No Millis, No Tone"
+  - Programmer: "Arduino as ISP" (**NOT Arduino ISP**)
    
    **After that Press `Burn Bootloader` to make sure that these Settings are applied.**
 

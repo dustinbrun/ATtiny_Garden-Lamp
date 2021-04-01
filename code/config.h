@@ -6,8 +6,8 @@
 
 
 
-int on_val = 400; //LDR Value below that to switch the Light on
-int off_val = 500;  //LDR Value above that to switch the Light off
+int on_val = 300; //LDR Value below that to switch the Light on
+int off_val = 400;  //LDR Value above that to switch the Light off
 unsigned long max_on_time = 666666;  // Calculation: ('on_time_in_minutes' * 60) / 0.027
                                   //Example: 5h (=300min) ON-time: max_on_time = (300 * 60) / 0.027 = 666666
 #define PIXEL_NUM 3 //Ammount of WS2812 LEDs
@@ -21,7 +21,7 @@ unsigned long max_on_time = 666666;  // Calculation: ('on_time_in_minutes' * 60)
 //----------- Flickering Effect -----------
 //Default Colours
 int red = 255;
-int green = 70;
+int green = 50;
 int blue = 20;
 
 //  Purple flame:
@@ -29,16 +29,16 @@ int blue = 20;
 //  Green flame:
     //int red = 74, green = 150, blue = 12;
 
-int indensity = 40; // Maximum Flickering offset
+int indensity = 30; // Maximum Flickering offset
 int d_delay = 300; // Maximum Delay offset
 
 
 // ----- colour after timeout ----
 // This is the Colour with which the leds light up, after the timeout (max_on_time) is reached until it gets light again
 // If you want it to be off, set all values to 0
-int timeout_red = 0;
+int timeout_red = 10;
 int timeout_green = 0;
-int timeout_blue = 5;
+int timeout_blue = 0;
 
 
 // ------ color throughout the day -------
