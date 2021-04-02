@@ -63,7 +63,7 @@ You can find more detailed information here:
 - Timer Interrupt:    https://arduinodiy.wordpress.com/2015/06/22/flashing-an-led-with-attiny13/
 - WS2812B Lib:  
   - https://blog.podkalicki.com/attiny13-controlling-leds-ws2811ws2812/
-  - https://www.instructables.com/Updated-Guide-on-How-to-Program-an-Attiny13-or-13a/
+  - https://github.com/lpodkalicki/blog/tree/master/avr/attiny13/034_rainbow_on_single_led_ws2812
 - Random number gernerator lib:   
   - https://blog.podkalicki.com/attiny13-pseudo-random-numbers/
   - https://github.com/lpodkalicki/blog/tree/master/avr/attiny13/009_lightweigth_prng_based_on_lfsr
