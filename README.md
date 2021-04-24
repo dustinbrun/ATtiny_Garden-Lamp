@@ -30,7 +30,7 @@ There are a view different configuration options (like on-time, color, ...), whi
 ### 4. Uploading
   Open the code in the Arduino IDE and select the Attiny13 as the Board.
   Select the following settings:
-  <img src="pictures/ide_settings.png" width="40%">
+  <br><img src="pictures/ide_settings.png" width="40%">
   
   These settings are important:
   - Processor-Speed to 9.6 Mhz
