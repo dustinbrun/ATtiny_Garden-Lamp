@@ -4,7 +4,10 @@ The LEDs are Simulating a nice-looking Fire-Effect. This effect is generated usi
 It also features a LDR Light-Sensor to turn on the Lamp in the Darkness automatically.
 In the code you can set a time after which the lamp automatically turns off, even if it is still dark. 
 
+This circuit can be used with old solar lamps like i did it with this one:
 
+<img src="pictures/lamp.jpg" width="25%">
+<img src="pictures/lamp_gif.gif" width="25%">
 
 # Software
 The software is based on several different code snippets. You can find links to them in the Sources-Tab.
@@ -21,7 +24,9 @@ There are a view different configuration options (like on-time, color, ...), whi
 
 ### 2. wiring
    I use a Arduino Nano to program the ATtiny, but also a Arduino UNO will do fine. Hook up the ATtiny like it is shown in the schematic:
+
    <img src="pictures/Program_ATtiny_Steckplatine.png" width="50%">
+
    The capacitor is important because it prevents the Arduino from resetting itself while programming the ATtiny.
 
 ### 3. Download ATtiny13 support for the IDE
